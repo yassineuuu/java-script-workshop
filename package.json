@@ -1,0 +1,20 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compil": "node-sass sass -o css",
+    "watch": "node-sass -w sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassineuuu/java-script-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yassineuuu/java-script-workshop/issues"
+  },
+  "homepage": "https://github.com/yassineuuu/java-script-workshop#readme"
+}
