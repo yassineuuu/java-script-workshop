@@ -6,16 +6,15 @@ var favoriteBooks=[
 ]
      
  function printFavoriteBooks(){
-        for( var y=0;y<favoriteBooks.length; y+=1){
-            var book=favoriteBooks[y]
-            console.log(book) 
+        for( let y of favoriteBooks){
+            console.log(y) 
         }
       }
 
-      function addFavoriteBook(bk){
-        var n=bk.includes("Great")
+      function addFavoriteBook(book){
+        var n=book.includes("Great")
           if (n!=true){
-            favoriteBooks.push(bk)
+            favoriteBooks.push(book)
           }
           return printFavoriteBooks()
       }
