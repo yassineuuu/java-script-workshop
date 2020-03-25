@@ -10,7 +10,7 @@
     <section>
 
         <label for="txt">Book Name</label>
-        <input type="text" placeholder="Book Name" id="txt" >
+        <input type="text" placeholder="Book Name" id="txt" novalidate onsubmit="return validation()">
         <input type="submit" value="submit" onclick='addFavoriteBook(txt.value)' class="sub" >
 
     </section>
